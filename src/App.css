@@ -2,7 +2,57 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.appBar{
+    background-color: rgb(235, 235, 235);
+}
+
 .logo{
-    width: 30px;
+    width: 3%;
     height: auto;
+    padding: 0.3%;
+}
+
+.container{
+    padding: 3%;
+}
+
+.card{
+    margin-bottom: 0.6em;
+}
+
+.linkType{
+    text-decoration: none;
+    color: white;
+    margin-right: 0.4em;
+}
+
+.comunicado{ background-color: #3333ff;}
+
+.evento{ background-color: #ffcc33;}
+
+.moreButton{
+    margin-right: 0.4em;
+}
+
+.rightBlock{
+    margin-bottom: 0.6em;
+}
+
+.quadros{
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+}
+
+.quadrosInnerContainer{
+    padding: 1em;
+}
+
+.rightBlockBtn{
+    padding: 0;
+}
+
+.imgRightBlock{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
