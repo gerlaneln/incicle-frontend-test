@@ -1,7 +1,3 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-}
-
 .appBar{
     background-color: rgb(235, 235, 235);
 }
@@ -14,6 +10,7 @@
 
 .nome{
     color: #262626;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main{
@@ -22,6 +19,7 @@ main{
 
 .headerContent{
     width: 100%;
+    justify-content: center;
 }
 
 .container{
@@ -64,11 +62,12 @@ main{
 .quadro{
     background-color: #f2f2f2;
     border: 1px solid #d9d9d9;
-    padding-top: 0.6em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.3em;
+    padding-top: 0.4em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    padding-bottom: 0.1em;
     margin-bottom: 0.3em;
+    overflow-x: scroll;
 }
 
 .rightBlockBtn{
@@ -81,15 +80,4 @@ main{
     object-fit: cover;
 }
 
-@media only screen and (max-width: 620px) {
-    .headerContent{
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 1120px) {
-    .container{
-        display: block;
-    }
-}
 
