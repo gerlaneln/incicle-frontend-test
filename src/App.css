@@ -12,6 +12,14 @@
     padding: 0.3%;
 }
 
+.nome{
+    color: #262626;
+}
+
+.headerContent{
+    width: 100%;
+}
+
 .container{
     padding: 3%;
 }
@@ -41,10 +49,23 @@
 .quadros{
     background-color: rgb(235, 235, 235);
     border-radius: 3px;
+    border: 1px solid #d9d9d9;
 }
 
 .quadrosInnerContainer{
-    padding: 1em;
+    padding: 1.2em;
+    align-items: center;
+    align-content: center;
+}
+
+.quadro{
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    padding-top: 0.6em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .rightBlockBtn{
@@ -56,3 +77,16 @@
     height: 50px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 620px) {
+    .headerContent{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .container{
+        display: block;
+    }
+}
+
