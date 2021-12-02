@@ -7,13 +7,17 @@
 }
 
 .logo{
-    width: 3%;
+    width: 45px;
     height: auto;
     padding: 0.3%;
 }
 
 .nome{
     color: #262626;
+}
+
+main{
+    background-color: #f2f2f2;
 }
 
 .headerContent{
@@ -39,7 +43,7 @@
 .evento{ background-color: #ffcc33;}
 
 .moreButton{
-    margin-right: 0.4em;
+    margin-right: 0.6em;
 }
 
 .rightBlock{
@@ -47,9 +51,8 @@
 }
 
 .quadros{
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     border-radius: 3px;
-    border: 1px solid #d9d9d9;
 }
 
 .quadrosInnerContainer{
@@ -59,7 +62,7 @@
 }
 
 .quadro{
-    background-color: white;
+    background-color: #f2f2f2;
     border: 1px solid #d9d9d9;
     padding-top: 0.6em;
     padding-left: 0.5em;

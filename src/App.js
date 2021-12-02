@@ -91,7 +91,6 @@ const App = () => {
                                                             <em>Tipo</em>
                                                         </MenuItem>
                                                         <MenuItem value={"event"}>Evento</MenuItem>
-                                                        <MenuItem value={"release"}>Publicação</MenuItem>
                                                         <MenuItem value={"release"}>Comunicado</MenuItem>
                                                     </Select>
                                                 </FormControl>
